@@ -98,8 +98,6 @@ Answer the following questions based on your understanding of the installation a
 
 
 
-
-
  Submission Guidelines:
 - Your answers should be well-structured, concise, and to the point.
 - Provide screenshots or step-by-step instructions where applicable.

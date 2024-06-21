@@ -90,11 +90,13 @@ Answer the following questions based on your understanding of the installation a
 
 10. Using Source Control:
     - How can users integrate Git with VS Code for version control? Describe the process of initializing a repository, making commits, and pushing changes to GitHub.
+    
+    - First, ensure Git is installed on your system. Then, open VS Code, go to the Extensions, search for "Git", and install the official Git extension provided by Visual Studio Code.
+    - Initialize a Git Repository: Initialize a New Repository from github. Open VS Code then the folder where you want to create a new Git repository. Click on the Source Control view icon in the sidebar to open the Source Control panel. Click on the "Initialize Repository" button or run git init from the Command Palette.
+    - Make Commits: Open the file you want to change, make your changes and save the file. Go to source control, you'll see your changed files listed under "Changes". Enter a commit message in the text box at the top. Click the checkmark icon to commit the changes.
+    - Push Changes to GitHub. Ensure you have the right GitHub repository link. In VS Code, open the Command Palette and type Git: Push. Select the remote repository where you want to push your changes. And VS Code will push your changes to GitHub.
 
-   - First, ensure Git is installed on your system. Then, open VS Code, go to the Extensions, search for "Git", and install the official Git extension provided by Visual Studio Code.
-   - Initialize a Git Repository: Initialize a New Repository from github. Open VS Code then the folder where you want to create a new Git repository. Click on the Source Control view icon in the sidebar to open the Source Control panel. Click on the "Initialize Repository" button or run git init from the Command Palette.
-   - Make Commits: Open the file you want to change, make your changes and save the file. Go to source control, you'll see your changed files listed under "Changes". Enter a commit message in the text box at the top. Click the checkmark icon to commit the changes.
-   - Push Changes to GitHub. Ensure you have the right GitHub repository link. In VS Code, open the Command Palette and type Git: Push. Select the remote repository where you want to push your changes. And VS Code will push your changes to GitHub.
+
 
 
 
